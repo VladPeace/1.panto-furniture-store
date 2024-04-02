@@ -9,7 +9,7 @@
 
   color: var(--header-text-color);
 
-  @include retina-bg(url(/img/header/header-bg@2x.jpg));
+  // @include retina-bg(url(/img/header/header-bg@2x.jpg));
 
   a {
     color: var(--header-text-color);
