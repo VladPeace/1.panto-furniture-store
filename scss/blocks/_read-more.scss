@@ -1,0 +1,21 @@
+.read-more {
+  // Benefit link
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 185%;
+
+  &::after {
+    content: url(./../img/icons/arrow-right.svg);
+    height: 26px;
+  }
+
+  // Products link
+  &--large {
+    font-size: 18px;
+  }
+}

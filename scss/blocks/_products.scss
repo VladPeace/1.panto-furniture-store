@@ -1,0 +1,30 @@
+.products {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+
+  // .products__title
+  &__title {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  // .products__tabs
+  &__tabs {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  // .products__slider
+  &__slider {
+    margin-bottom: clamp(25px, 0.938rem + 3.13vw, 60px);
+
+    @include desktop-small() {
+      padding: 0 clamp(15px, 0.67rem + 1.34vw, 30px);
+    }
+  }
+
+  // .products__link
+  &__link {
+    text-align: center;
+  }
+}

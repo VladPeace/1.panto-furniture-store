@@ -1,0 +1,24 @@
+.sub-nav {
+  display: grid;
+  gap: 10px;
+
+  padding: 10px 15px;
+  border-radius: 12px;
+  background-color: var(--footer-bg);
+
+  font-size: 16px;
+  font-family: var(--font-footer-accent);
+
+  // // .sub-nav__item
+  // &__item {
+  // }
+
+  // .sub-nav__link
+  &__link {
+    transition: color 0.2s ease-in;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.benefit {
+  // .benefit__title
+  &__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+
+    opacity: 0.9;
+  }
+
+  // .benefit__text
+  &__text {
+    margin-bottom: 14px;
+    font-size: clamp(14px, 0.839rem + 0.18vw, 16px);
+    line-height: 185%;
+
+    text-wrap: balance;
+    opacity: 0.8;
+  }
+}
