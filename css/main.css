@@ -154,11 +154,16 @@ body {
   position: relative;
   padding-top: clamp(20px, 0.893rem + 1.79vw, 40px);
   background-color: var(--footer-bg);
-  background-image: url(./img/header/header-bg.jpg);
+  background-image: url(/img/header/header-bg.png);
   background-size: cover;
   aspect-ratio: 1440/1084;
   color: var(--header-text-color);
   /* Dots */
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header {
+    background-image: url(/img/header/header-bg@2x.png);
+  }
 }
 .header a {
   color: var(--header-text-color);
