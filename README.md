@@ -8,3 +8,5 @@ Were used:
 • SCSS
 • JS
 • JS-plugins
+
+“GitHub is not displaying the background correctly, so I uploaded the site to Netlify.”
