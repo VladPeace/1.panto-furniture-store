@@ -160,11 +160,6 @@ body {
   color: var(--header-text-color);
   /* Dots */
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .header {
-    background-image: url(/img/header/header-bg@2x.png);
-  }
-}
 .header a {
   color: var(--header-text-color);
 }
